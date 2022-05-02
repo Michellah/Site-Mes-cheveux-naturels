@@ -1,0 +1,379 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width:500px){
+    .soucontainer{
+        display: flex;
+        flex-direction: row;
+    }
+    .cont{
+        flex-basis: 41%;
+    }
+    .cont span{
+        color: #c96f53;
+        padding-left: 5px;
+    }
+    .cont2{
+        flex-basis: 59%;
+        background-color: #c96f53;
+        padding-top: 1vw;
+    }
+    .cont2 ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .cont2 li{
+        flex-basis: 25%;
+        list-style-type: none;
+    }
+    .cont2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .cont2 a:hover{
+        color: white;
+        font-size: 18px;
+    }
+    .soucontainer2{
+        display: flex;
+        flex-direction: row;
+        background-color: #d8a292;
+    }
+    .soucont{
+        flex-basis: 40%;
+    }
+    .soucont img{
+        width: 40vw;
+    }
+    .soucont2{
+        flex-basis: 60%;
+        align-self: center;
+        padding: 2vw;
+        text-align: center;
+    }
+    #ouvert{
+        color: white;
+        font-size: 18px;
+    }
+    .soucont2 input{
+        border: 0;
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 1vw;
+        background-color: #c96f53;
+    }
+    .border{
+        border:solid 2px #d8a292;
+        width: 50vw;
+        margin: 3vw 25vw;
+    }
+    .soucont2 input:hover{
+        color: white;
+    }
+    #bou{
+        margin-left: 45vw;
+    }
+    .soumenu{
+        border-radius: 50vw;
+        background-color: #d8a292;
+        width: 380px;
+        height: 380px;
+        border: solid #c96f53 1px;
+        opacity: 0.8;
+        margin: 5px;
+        margin-left: 10vw;
+    }
+    .soumenu h3{
+        margin-top: 10vw;
+        margin-left: 10vw;
+    }
+    #hair{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .menu{
+        flex-basis: 49%;
+        margin: 5px;
+    }
+    section h2{
+        text-align: center;
+    }
+    #diagnostic{
+        background-image: url(IMAGE/diagnostic.jpg);
+        background-repeat: no-repeat;
+    }
+    #coupe{
+        background-image: url(IMAGE/studio-boucle-paris-salon-coiffure-cheveux-textures-1024x683.jpg);
+        background-size: cover;
+    }
+    #braid{
+        background-image: url(IMAGE/GettyImages-643923751.jpg);
+        background-size: cover;
+    }
+    #evenement{
+        background-image: url(IMAGE/evenementielle.png);
+        background-size: cover;
+    }
+    #reparateur{
+        background-image: url(IMAGE/coupe\ \(2\).jpg);
+        background-size: cover;
+    }
+    #regenerateur{
+        background-image: url(IMAGE/27.png);
+        background-size: cover;
+    }
+    #contact{
+        display: flex;
+        flex-direction: row;
+    }
+    #contact div{
+        flex-basis: 50%;
+    }
+    #contact h3{
+        color: #c96f53;
+    }
+    .text{
+        border: 0;
+        border-bottom: solid 1px #d8a292;
+        width: 300px;
+        padding: 5px;
+        outline: none;
+    }
+    .bouton{
+        border-radius: 25px;
+        border: 0;
+        background-color: #c96f53;
+        color: white;
+        padding: 5px;
+    }
+    .bouton:hover{
+        font-size: 15px;
+    }
+    ::placeholder{
+        color: #2c1710;
+    }
+    #navigation{
+        margin-left: 45vw;
+        margin-top: 5vw;
+    }
+    #ouvre{
+        background-color: #d8a292;
+    }
+    #navigation a{
+        border-radius: 15vw;
+        border: solid 1px #d8a292;
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+    }
+    acronym{
+        text-decoration: none;
+    }
+    #navigation a:hover{
+        background-color: #d8a292;
+    }
+    footer a{
+        margin-left: 45vw;
+    }
+    #logo{
+        margin-left: 42vw;
+    }
+}
+@media screen and (max-width:500px){
+    .soucontainer{
+        display: flex;
+        flex-direction: row;
+    }
+    .cont{
+        flex-basis: 41%;
+    }
+    .cont span{
+        color: #c96f53;
+        padding-left: 5px;
+    }
+    .cont2{
+        flex-basis: 59%;
+        background-color: #c96f53;
+        padding-top: 5vw;
+        padding-left: 10vw;
+    }
+    .cont2 ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont2 li{
+        flex-basis: 25%;
+        list-style-type: none;
+    }
+    .cont2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+    .cont2 a:hover{
+        color: white;
+        font-size: 18px;
+    }
+    .soucontainer2{
+        display: flex;
+        flex-direction: row;
+        background-color: #d8a292;
+    }
+    .soucont{
+        flex-basis: 40%;
+        width: 50px;
+    }
+    .soucont img{
+        width: 96vw;
+        height: 100vw;
+    }
+    .soucont2{
+        flex-basis: 60%;
+        align-self: center;
+        padding: 2vw;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+    }
+    #ouvert{
+        color: white;
+        font-size: 18px;
+    }
+    .soucont2 input{
+        border: 0;
+        color: white;
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 1vw;
+        background-color: #c96f53;
+    }
+    .border{
+        border:solid 2px #d8a292;
+        width: 50vw;
+        margin: 3vw 25vw;
+    }
+    .soucont2 input:hover{
+        color: white;
+    }
+    #bou{
+        margin-left: 30vw;
+    }
+    .soumenu ul{
+        padding: 35px;
+    }
+    .soumenu{
+        border-radius: 50vw;
+        background-color: #d8a292;
+        width: 350px;
+        height: 350px;
+        border: solid #c96f53 1px;
+        opacity: 0.8;
+        margin: 5px;
+        margin-left: 5vw;
+    }
+    .soumenu h3{
+        margin-top: 10vw;
+        margin-left: 25vw;
+    }
+    #hair{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .menu{
+        flex-basis: 49%;
+        margin: 5px;
+    }
+    section h2{
+        text-align: center;
+    }
+    #diagnostic{
+        background-image: url(IMAGE/diagnostic.jpg);
+        background-repeat: no-repeat;
+        width: 96vw;
+    }
+    #coupe{
+        background-image: url(IMAGE/studio-boucle-paris-salon-coiffure-cheveux-textures-1024x683.jpg);
+        background-size: cover;
+    }
+    #braid{
+        background-image: url(IMAGE/GettyImages-643923751.jpg);
+        background-size: cover;
+    }
+    #evenement{
+        background-image: url(IMAGE/evenementielle.png);
+        background-size: cover;
+    }
+    #reparateur{
+        background-image: url(IMAGE/coupe\ \(2\).jpg);
+        background-size: cover;
+    }
+    #regenerateur{
+        background-image: url(IMAGE/27.png);
+        background-size: cover;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+    }
+    #contact div{
+        flex-basis: 50%;
+    }
+    #contact h3{
+        color: #c96f53;
+    }
+    .text{
+        border: 0;
+        border-bottom: solid 1px #d8a292;
+        width: 300px;
+        padding: 5px;
+        outline: none;
+    }
+    .bouton{
+        border-radius: 25px;
+        border: 0;
+        background-color: #c96f53;
+        color: white;
+        padding: 5px;
+    }
+    .bouton:hover{
+        font-size: 15px;
+    }
+    ::placeholder{
+        color: #2c1710;
+    }
+    #navigation{
+        margin-left: 30vw;
+        margin-top: 5vw;
+    }
+    #ouvre{
+        background-color: #d8a292;
+    }
+    #navigation a{
+        border-radius: 15vw;
+        border: solid 1px #d8a292;
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+    }
+    acronym{
+        text-decoration: none;
+    }
+    #navigation a:hover{
+        background-color: #d8a292;
+    }
+    footer a{
+        margin-left: 40vw;
+    }
+    #logo{
+        margin-left: 30vw;
+    }
+}
+
+footer{
+    background-color: black;
+}
